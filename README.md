@@ -1,2 +1,2 @@
-# emails
-RocketJourney's Email Templates Repo
+# RJ Emails Repo
+Handcoded HTMLs right now. No fancy gulp process, yet.
