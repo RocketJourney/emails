@@ -1,10 +1,9 @@
-#### English
+### English
 
 **Subject:** {Username}, please verify your email
 **From:** RocketJourney
 
-
-#### Spanish
+### Spanish
 
 **Subject:** {Username}, por favor verifica tu email
 **From:** RocketJourney
