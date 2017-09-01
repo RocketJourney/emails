@@ -21,12 +21,12 @@
 
             <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6em; font-weight: normal; margin: 0 0 20px; padding: 0;">
 <!-- config: user name, club name -->
- <b>{invitor_first_name}</b> te envió una invitación para unirte al <b>Control Center de {club_name}</b>, pero nuestro sistema indica que ya estás registrado. Puedes iniciar sesión <a style="color:#4990E2;font-weight:bold;" href="https://{namespace}.control.center/login">aquí</a>.
+ <b>#{first_name}</b> te envió una invitación para unirte al <b>Control Center de #{club_name}</b>, pero nuestro sistema indica que ya estás registrado. Puedes iniciar sesión <a style="color:#4990E2;font-weight:bold;" href="#{login_url}">aquí</a>.
             </p>
 
             <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6em; font-weight: normal; margin: 0 0 20px; padding: 0;">
             <!-- config: user name, club name -->
-            Si olvidaste tu contraseña, la puedes restablecer <a style="color:#4990E2;font-weight:bold;" href="https://control.center/reset">aquí</a>, tu email registrado es <b>{invitee_cc_user.email}</b>.
+            Si olvidaste tu contraseña, la puedes restablecer <a style="color:#4990E2;font-weight:bold;" href="#{recover_password_url}">aquí</a>, tu email registrado es <b>#{invite_email}</b>.
             </p>
 
             <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; color: #888; font-weight: normal; margin: 0 0 30px; padding: 0;">
