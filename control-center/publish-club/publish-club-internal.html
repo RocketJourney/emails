@@ -3,9 +3,9 @@
 <!--  Email Details:
 
 To: admin@rocketjourney.com
-From: 🙋🏻 Club Request
+From: 🚨 Club Published
 From email: internal@rocketjourney.com
-Subject: {club.name} (solicitado por {form.user_name})
+Subject: {club.name} is now published on the app.
 
 -->
 
@@ -13,7 +13,7 @@ Subject: {club.name} (solicitado por {form.user_name})
 <head>
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>🙋🏻 Club Request</title>
+  <title>🚨 Club Published</title>
 </head>
 <body style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; -webkit-font-smoothing: antialiased; height: 100%; -webkit-text-size-adjust: none; width: 100% !important; margin: 0; padding: 0; color: #444;">
 
@@ -29,15 +29,9 @@ Subject: {club.name} (solicitado por {form.user_name})
 
             <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6em; font-weight: normal; margin: 0 0 20px; padding: 0;">
               <!-- config: club name -->
-              <b>Club Request</b><br><br>
+              <b>🚨 Club Published</b><br><br>
 
-              Club Name: <b>{form.club_name}</b> <br>
-              Typed Name: <b>{form.user_name}</b> <br>
-              Gym Membership Number: <b>{form.member_id}</b> <br>
-              <br>
-              User Name: <b>{user.name}</b> <br>
-              User Email: <b>{user.email}</b> <br>
-              User Registration Date: <b>{user.inserted_at}</b>
+              The club <b>{club.name}</b> was published by <b>{cc_user_full_name} ( {cc_user_email}, {cc_user_id} )</b>.
             </p>
           </td>
         </tr>
