@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;">
+<html style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0;">
 <head>
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -18,7 +18,7 @@ font-family: Arial, sans-serif;
 <body style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; -webkit-font-smoothing: antialiased; height: 100%; -webkit-text-size-adjust: none; width: 100% !important; margin: 0; padding: 0; color: #eaeaea;">
 
   <!-- body -->
-  <table bgcolor="#111111" class="body-wrap" style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; width: 100%; margin: 0; padding: 0px;"><tr style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;">
+  <table bgcolor="#111111" class="body-wrap" style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; width: 100%; margin: 0; padding-left: 20px; padding-right: 20px; padding-top:20px; padding-bottom:0;"><tr style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;">
     <td style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;"></td>
     <td bgcolor="#111111" class="container" style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; clear: both !important; display: block !important; max-width: 626px !important; Margin: 0 auto; padding: 0px;">
 
@@ -28,9 +28,10 @@ font-family: Arial, sans-serif;
             <td style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;">
               <!-- config: image url -->
               <p style="margin:0; text-align: center; margin-bottom: 26.2px;">
-                <img alt="rocketjourney" src="#{club_brand}" width="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px;" border="0">
+                <!-- <img alt="rocketjourney" src="#{club_brand}" width="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px;" border="0"> -->
+                <img alt="rocketjourney" src="https://assets.rocketjourney.com:9000/locations/icons/planet-gim.png" width="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;" border="0">
                 <img alt="rocketjourney" src="https://assets.rocketjourney.com:9000/marketing/emails/plus-sign.png" height="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px;" border="0">
-                <img alt="rocketjourney" src="https://assets.rocketjourney.com:9000/marketing/emails/rj-for-dark-bg.png" width="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px;" border="0">
+                <img alt="rocketjourney" src="https://assets.rocketjourney.com:9000/marketing/emails/rj-for-dark-bg.png" width="60" style="display: inline-block; font-family: Helvetica, Arial, sans-serif; color: #eaeaea; font-size: 17px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;" border="0">
               </p>
               <p style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 17px; line-height: 1.4em; font-weight: normal; margin: 0 0 20px; padding: 0;">
                 <!-- config: club name -->
@@ -40,7 +41,7 @@ font-family: Arial, sans-serif;
               </p>
               <p style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 17px; line-height: 1.4em; font-weight: normal; margin: 0 0 20px; padding: 0;">
                 <span style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;">
-                  Descarga la app y conéctate a Planet Gim para que tus asistencias cuenten automáticamente.
+                  Descarga la app y conéctate a #{club_name} para que tus asistencias cuenten automáticamente.
                 </span>
               </p>
               <p style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 17px; line-height: 1.4em; font-weight: normal; margin: 0 0 20px; padding: 0;">
@@ -71,13 +72,20 @@ font-family: Arial, sans-serif;
     </td>
   </tr>
   </table>
+
+<!--  Información para evitar daños de reputación por SPAM:  -->
+
   <table bgcolor="#FFFFFF" style="width: 100%;">
     <tr style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; margin: 0; padding: 0;">
       <td bgcolor="#FFFFFF" class="container" style="font-family: 'Montserrat', Helvetica, Arial, sans-serif !important; font-size: 100%; line-height: 1.4em; clear: both !important; display: block !important; max-width: 340px !important; Margin: 0 auto; padding: 0px;">
         <p style="text-align: center;font-size: 14px; color: #878787;">
           <b style="font-size: 14px;color: #878787;">#{club_name}</b>
           <br />
-          #{club_address}
+          {La direccion de tu Club}
+          <br />
+          <br />
+          <a href="#" style="color: #C3C3C3;font-size: 13px;">desuscribir</a>
+
         </p>
       </td>
     </tr>
